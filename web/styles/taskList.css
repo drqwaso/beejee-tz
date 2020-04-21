@@ -1,0 +1,18 @@
+.widget-content-wrapper {
+    display:-webkit-flex;/* Safari */
+    display:flex;
+}
+
+.widget-content-wrapper .buttons-block {
+    display:-webkit-flex;/* Safari */
+    display:flex;
+    flex-direction:column;
+}
+
+.nav-sorting .active a {
+    color: #333333;
+}
+
+.nav-sorting.disabled a {
+    color: #b7b7b7;
+}
